@@ -7,7 +7,7 @@ const connec = document.getElementById('connec');
 const hamburge = document.querySelector('.hamburger');
 const nav = document.querySelector('nav');
 const head = document.getElementById('Head');
-const act = product.addEventListener('click', () =>{
+product.addEventListener('click', () =>{
     produc.classList.toggle('active');
 });
 company.addEventListener('click' , () =>{
@@ -34,8 +34,3 @@ document.querySelectorAll('#connec').forEach(n => n.addEventListener('click', ()
     
 }));
 
-head.addEventListener('click', () =>{
-    produc.classList.remove('product');
-//     connec.classList.toggle('active')
-//     compan.classList.toggle('active')
-});
